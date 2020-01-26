@@ -1,0 +1,3 @@
+[submodule "blog2csv_scrap"]
+	path = blog2csv_scrap
+	url = https://github.com/h4zzkR/livejournal_blog2csv.git

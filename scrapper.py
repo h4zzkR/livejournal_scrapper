@@ -6,8 +6,7 @@ import pandas
 
 sys.path.append('..')
 BASE_DIR = os.path.dirname(os.path.realpath(__file__))
-blog2csv = os.path.join('/'.join(BASE_DIR.split('/')[:-1]), \
-    'blog2csv_scrap/blog2csv.py')
+blog2csv = os.path.join(BASE_DIR, 'blog2csv_scrap/blog2csv.py')
 # from blog2csv_scrap.blog2csv import main as blog2csv
 
 

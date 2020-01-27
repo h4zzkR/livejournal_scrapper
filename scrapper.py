@@ -43,7 +43,7 @@ class ProcessBlogs(object):
         return data
 
     def get_csv(self, start_blog_url, max_posts):
-        command = f"{blog2csv} {start_blog_url} --destination {self.save_dir}" + \
+        command = f"python {blog2csv} {start_blog_url} --destination {self.save_dir}" + \
             f" --max_posts {max_posts}"
         os.system(command)
 
